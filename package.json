@@ -1,0 +1,23 @@
+{
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "description": "tailwind, postcss, autoprefixer etc.,",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "keywords": [
+    "tailwind",
+    "postcss",
+    "autoprefixer",
+    "etc."
+  ],
+  "author": "Hari~",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {}
+}
